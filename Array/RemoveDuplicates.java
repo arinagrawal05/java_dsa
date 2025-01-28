@@ -10,7 +10,7 @@ public class RemoveDuplicates {
     int idx=0;
   for (int i = 1; i < n.length; i++) {
     if (n[i]!=n[idx]) {
-      n[idx]=n[i];
+      // n[idx]=n[i];
       idx++;
     }
   }
