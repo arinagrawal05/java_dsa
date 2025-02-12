@@ -13,8 +13,7 @@ for(int i=0;i<var0.length;i++){
  }
  rsum=rsum-var0[0];
  for (int i = 1; i < var0.length; i++) {
-  if(i==0){
-continue;  }
+  
   if(lsum==rsum){
     return true;
   }else{
